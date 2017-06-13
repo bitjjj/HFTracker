@@ -3,7 +3,8 @@ https://play.google.com/store/apps/details?id=com.oppsis.app.hftracker
 
 Details：http://blog.csdn.net/kittyjie/article/details/72471309
 
-
+Publish in 2014
+ 
 V1.0
 ---
 1) Billionaire Hedge Funds list.
@@ -26,4 +27,7 @@ V1.0
 5) 标普500指数百年来的市盈率，席勒市盈率，每股收益，每股股利情况。
 
  跟着大佬（索罗斯，巴菲特等）的脚步，可以走得更远！
+ 
+ 
+
 
