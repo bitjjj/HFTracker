@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="tablet_land">true</bool>
-    <bool name="show_news_popup_menu">true</bool>
-    <bool name="lanuch_news_detail_activity">false</bool>
-    <bool name="init_industry_chart">true</bool>
-    <bool name="init_news_list">true</bool>
-    <bool name="load_first_news_detial">true</bool>
-</resources>
