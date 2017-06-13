@@ -1,0 +1,7 @@
+com.oppsis.app.hftracker.resource.FundHoldingsResource
+com.oppsis.app.hftracker.resource.FundNewsResource
+com.oppsis.app.hftracker.resource.FundDateListResource
+com.oppsis.app.hftracker.resource.FundIndustryResource
+com.oppsis.app.hftracker.resource.FundAnalysisResource
+com.oppsis.app.hftracker.resource.SPXDataResource
+com.oppsis.app.hftracker.resource.PingResource

@@ -1,0 +1,23 @@
+{
+  "name": "hf-tracker-data-crawler",
+  "version": "1.0.0",
+  "description": "data from insidermonkey.com",
+  "main": "App.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/bitjjj/HFTrackerDataCrawler.git"
+  },
+  "keywords": [
+    "hf"
+  ],
+  "author": "bitjjj",
+  "license": "ISC"
+}

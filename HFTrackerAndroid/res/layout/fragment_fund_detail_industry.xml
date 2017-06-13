@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/fund_industry_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+    
+    <TextView
+        style="@style/Chart.SubTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:textSize="@dimen/chart_title_industry_font_size"
+        android:text="@string/chart_industry_title"/>
+    
+    <include layout="@layout/loading" />
+    	   
+</FrameLayout>

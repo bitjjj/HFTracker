@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">對沖基金</string>
+    <string name="app_name_full">對沖基金</string>
+    <string name="language">HK</string>
+
+    <string name="share_label">分享</string>
+    <string name="setting_label">設置</string>
+    <string name="sure_label">確定</string>
+    <string name="search_label">搜索</string>
+    <string name="search_hint_label">請輸股票代碼</string>
+    <string name="favorite_label">贊</string>
+    <string name="good_label">好</string>
+    <string name="filter_label">過濾</string>
+    <string name="comment_label">評論</string>
+    <string name="comment_share_label">分享評論</string>
+    <string name="contactus_label">聯繫我們</string>
+    <string name="notice_label">免責聲明</string>
+    <string name="more_label">更多&#8230;</string>
+    <string name="loading_label">正在加載&#8230;</string>
+    <string name="loading_more_data_label">加載更多數據</string>
+    <string name="loading_data_label">正在加載數據&#8230;</string>
+    <string name="send_email_label">發送郵件</string>
+    <string name="intro_label">簡介</string>
+    <string name="date_label">日期</string>
+    <string name="selected_items_tip">%d 選中</string>
+    <string name="select_date_title">選擇日期</string>
+    <string name="no_data_tip">沒有查詢到相關數據</string>
+    <string name="no_network_tip">請檢查您的網絡連接是否正常</string>
+    <string name="unknown_error_tip">出現未知錯誤</string>
+    <string name="item_placerholder">--</string>
+    <string name="hf_label">對沖基金</string>
+    <string name="menu_hf_home">首頁</string>
+    <string name="menu_hf_stock_rank">共同持股</string>
+    <string name="menu_hf_analysis">基金分析</string>
+    <string name="menu_mutual_security_compare">對比</string>
+    <string name="menu_hf_spx_pe">標普市盈率</string>
+    <string name="menu_hf_spx_shiller_pe">標普席勒市盈率</string>
+    <string name="menu_hf_spx_eps">標普每股盈餘</string>
+    <string name="menu_hf_spx_dps">標普每股股利</string>
+    <string name="hf_title_spx_pe">市盈率</string>
+    <string name="hf_title_spx_shiller_pe">席勒市盈率</string>
+    <string name="hf_title_spx_eps">每股盈餘</string>
+    <string name="hf_title_spx_dps">每股股利</string>
+    <string name="drawer_close">已關閉導航視圖</string>
+    <string name="drawer_open">已開導航視圖</string>
+    <string name="fund_detail_menu_holdings">持倉詳情</string>
+    <string name="fund_detail_menu_industry">持倉行業</string>
+    <string name="fund_detail_menu_news">新聞資訊</string>
+    <string name="fund_detail_filter_filling">持倉日期</string>
+    <string name="fund_detail_filter_security">證券類型</string>
+    <string name="fund_detail_filter_sort">排序選擇</string>
+    <string name="analysis_menu_portfolio">持倉市值</string>
+    <string name="analysis_menu_industry">行業分佈</string>
+    <string name="analysis_menu_mutual_security">共同持股</string>
+    <string name="analysis_header_name">名稱</string>
+    <string name="analysis_header_price">現價</string>
+    <string name="analysis_header_change_percent">漲跌幅</string>
+    <string name="analysis_header_change">漲跌點數</string>
+    <string name="analysis_header_held_count">持有數</string>
+    <string name="loading_analysis_select_manager_tip">點擊選擇基金</string>
+    <string name="loading_analysis_select_date_tip">點擊選擇日期</string>
+    <string name="security_type_all">所有</string>
+    <string name="security_type_stock">股票</string>
+    <string name="security_type_call">看漲期權</string>
+    <string name="security_type_put">看跌期權</string>
+    <string name="security_type_bond">債券</string>
+    <string name="chart_holdings_value_title">投資組合總市值(x$1000)</string>
+    <string name="chart_industry_title">持倉股票行業分佈(%)</string>
+    <string name="chart_spx_pe_title">標普500市盈率</string>
+    <string name="chart_spx_shiller_pe_title">標普500席勒市盈率</string>
+    <string name="chart_spx_eps_title">標普500每股盈餘</string>
+    <string name="chart_spx_dps_title">標普500每股股利</string>
+    <string name="chart_mutual_security_history_title">%1$s 佔組合比例(%%)</string>
+    <string name="chart_mutual_security_history_tip">%1$s\n持股數：%2$s\n佔組合：%3$s%%</string>
+    <string name="chart_mutual_security_comparator_port_desc">佔組合(%)</string>
+    <string name="chart_mutual_security_comparator_shares_desc">持股數</string>
+    <string name="holding_list_header_shares">持股數</string>
+    <string name="holding_list_header_value">市值(x$1000)</string>
+    <string name="holding_list_header_activity">變動</string>
+    <string name="holding_list_header_port">佔組合</string>
+    <string name="mutual_security_list_header_chart">詳情</string>
+    <string name="industry_full_name"></string>
+    
+    <string name="spx_pe_info"><![CDATA[Price to earnings ratio, based on trailing twelve month “as reported” earnings.\nCurrent PE is estimated from latest reported earnings and current market price.]]></string>
+    <string name="spx_shiller_pe_info"><![CDATA[Shiller PE ratio for the S&P 500.\nPrice earnings ratio is based on average inflation-adjusted earnings from the previous 10 years, known as the Cyclically Adjusted PE Ratio (CAPE Ratio), Shiller PE Ratio, or PE 10.]]></string>
+    <string name="spx_eps_info"><![CDATA[S&P 500 Earnings Per Share. 12-month real earnings per share — inflation adjusted, constant September 2014 dollars.]]></string>
+    <string name="spx_dps_info"><![CDATA[12-month real dividend per share.]]></string>
+
+    <string name="contact_us_info">聯繫方式</string>
+    <string name="contact_us_info_desc">QQ，Email</string>
+    <string name="contact_us_rate">給個好評</string>
+    <string name="contact_us_rate_desc">鼓勵一下我們辛苦的勞動</string>
+    <string name="contact_us_business">商業合作</string>
+    <string name="contact_us_business_desc">洽談廣告，數據，API接口等</string>
+    <string name="contact_us_suggestion">建議反饋</string>
+    <string name="contact_us_suggestion_desc">反饋您使用中遇到的問題，好的建議</string>
+    <string name="contact_us_business_detail">如果您有興趣在App中嵌入您的廣告，或者對我們展示的數據有需求，或者希望我們能提供公開的API接口，亦或其它形式的合作，都可以發郵件至app@oppsisfund.com。</string>
+    <string name="contact_us_i_know_label">我知道了</string>
+	<string name="contact_us_qq">QQ：315058107</string>
+	<string name="contact_us_email">郵件：app@oppsisfund.com</string>
+	<string name="contact_us_qq_link">http://user.qzone.qq.com/315058107</string>
+	<string name="contact_us_email_address">app@oppsisfund.com</string>
+	
+	<string name="setting_push_message">消息通知</string>
+	<string name="setting_push_message_desc">是否接收消息推送</string>
+	<string name="setting_check_version">檢查更新</string>
+	<string name="setting_check_version_desc">查看是否有更新的版本</string>
+	<string name="setting_clear_cache">清理緩存</string>
+	<string name="setting_clear_cache_desc">如果您的磁盤空間不足，可以清理一下</string>
+	<string name="setting_update_no_update">暫無更新</string>
+	<string name="setting_update_no_wifi">沒有wifi連接， 只能在wifi下更新</string>
+	<string name="setting_update_timeout">連接超時，請檢查網絡連接是否正常</string>
+	<string name="setting_cache_computing">正在計算&#8230;</string>
+	<string name="setting_cache_ok">清理緩存成功</string>
+    
+    <string name="statement"><![CDATA[
+	    數據或內容由金融交易所提供，並可能會由於金融交易所或數據提供方的原因而出現延遲現象。本人不會驗證任何數據，也不承擔任何數據驗證的義務。
+<br/><br/>
+本人或內容提供方、金融交易所及其所有關聯機構和業務合作夥伴(A) 明確聲明對數據的準確性、適用性和完整性不承擔任何責任，並且(B) 對數據中的任何錯誤、遺漏或瑕疵，延遲和中斷提供此類數據，或依據數據而採取的任何操作概不負責。對於您因使用我們的信息而遭受的任何損失，本人及其所有信息提供商均不承擔任何責任。此處所用的“業務合作夥伴”並非指與本人建立代理關係、合作夥伴關係或聯營關係的各方。
+<br/><br/>
+您同意在未獲得書面允許的情況下，不會對本文中的任何數據或信息進行複制、修改、重定格式、下載、存儲、重現、重新處理、傳播或再分發，也不會在商業企業中使用這些數據或信息。所有數據和信息均按原樣提供，只能作為個人信息使用，不得用於交易或諮詢用途。在進行任何交易之前，請諮詢您的經紀人或財務代表，以確認報價。
+<br/><br/>
+本人或第三方數據或內容提供方對各自所提供的數據和信息享有專有權。
+<br/><br/>   
+	]]></string>
+	
+    <string name="share_app_label">【對沖基金】分析工具，想要查看大佬的持倉，分析對比哪些股票被新買進，哪些被增持，哪些被減持，哪些被拋棄，請猛戳這裡(%1$s)</string>
+    <string name="share_app_analysis_label">【對沖基金】分析工具，分析對比不同大佬的持倉情況，股票行業分佈，共同持股，請猛戳這裡(%1$s)</string>
+    <string name="share_app_rank_label">【對沖基金】分析工具，查看哪些股票被大佬們持有的最多，請猛戳這裡(%1$s)</string>
+    <string name="share_app_spx_pe_label">【對沖基金】分析工具，查看標普500指數百年來的市盈率走勢情況，請猛戳這裡(%1$s)</string>
+    <string name="share_app_spx_shiller_pe_label">【對沖基金】分析工具，查看標普500指數百年來的席勒市盈率走勢情況，請猛戳這裡(%1$s)</string>
+    <string name="share_app_spx_eps_label">【對沖基金】分析工具，查看標普500指數百年來的每股收益走勢情況，請猛戳這裡(%1$s)</string>
+    <string name="share_app_spx_dps_label">【對沖基金】分析工具，查看標普500指數百年來的每股股利走勢情況，請猛戳這裡(%1$s)</string>
+    <string name="share_app_fund_detail_label">【對沖基金】分析工具，查看大佬的持股詳細情況​​，以及持倉行業分析和最新的新聞資訊，請猛戳這裡(%1$s)</string>
+    <string name="share_app_stock_detail_label">【對沖基金】分析工具，查看%1$s的走勢情況，請猛戳這裡(%2$s)</string>
+    <string name="share_app_news_detail_label">【對沖基金】分析工具，查看【%1$s】，請猛戳這裡(%2$s)</string>
+
+    <string name="manager_icon_menu_port_value">持倉市值</string>
+    <string name="manager_icon_menu_industry">@string/fund_detail_menu_industry</string>
+    <string name="manager_icon_menu_news">@string/fund_detail_menu_news</string>
+    <string name="filter_dialog_title">選擇過濾條件</string>
+</resources>

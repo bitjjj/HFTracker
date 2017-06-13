@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="security_types">
+        <item name="security_type_all">@string/security_type_all</item>
+        <item name="security_type_stock">@string/security_type_stock</item>
+        <item name="security_type_call">@string/security_type_call</item>
+        <item name="security_type_put">@string/security_type_put</item>
+        <item name="security_type_bond">@string/security_type_bond</item>
+    </string-array>
+    
+    <string-array name="sort_fields">
+        <item name="percentage">占组合比例</item>
+        <item name="activity">持股变动比例</item>
+        <item name="value">持股市值</item>
+        <item name="share">持股总数</item>
+        <item name="ticker">股票代码</item>
+        <item name="name">股票名称</item>
+    </string-array>
+    <string-array name="sort_directions">
+        <item name="desc">倒序</item>
+        <item name="asc">正序</item>
+    </string-array>
+    
+    <string-array name="proverbs">
+        <item name="1">财富是指你生活品质的程度，而不是你赚钱的多与少，要体会富有的滋味，并不需要标明自己有上亿的财产，而是去过、去想过适于你的生活。|——（美）洛克菲勒</item>
+        <item name="2">不进行研究的投资，就象打扑克从不看牌一样，必然失败！|——（美）彼得·林奇</item>
+        <item name="3">不要懵懵懂懂的随意买股票，要在投资前扎实的做一些功课，才能成功！|——（美）威廉·欧奈尔</item>
+        <item name="4">承担风险无可指责，但同时记住千万不能孤注一掷！|——（美）乔治·索罗斯</item>
+        <item name="5">始终遵守你自己的投资计划的规则，这将加强良好的自我控制！|——（英国）伯妮斯·科恩</item>
+        <item name="6">一个人一生能积累多少钱，不是取决于他能够赚多少钱，而是取决于他如何投资理财，人找钱不如钱找钱，要知道让钱为你工作，而不是你为钱工作。|——（美）沃伦·巴菲特</item>
+        <item name="7">投资不仅仅是一种行为，更是一种带有哲学意味的东西！|——（美国）约翰·坎贝尔</item>
+        <item name="8">如果一点钱也没有，生活不会快乐；如果有很多钱，也不一定会很快乐。钱是一个必要条件，而不是一个充分条件。|——（中）曾子墨</item>
+        <item name="9">世界上并非每一件事情，都是金钱可以解决的，但是确实有很多事情需要金钱才能解决。|——李嘉诚</item>
+        <item name="10">与其到头来收拾残局，甚至做成蚀本生意，倒不如当时理智克制一些。|——李嘉诚</item>
+    </string-array>
+</resources>

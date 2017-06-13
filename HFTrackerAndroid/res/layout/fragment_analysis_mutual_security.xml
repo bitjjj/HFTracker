@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/chart_placeholder"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:alpha="0.2"
+        android:src="@drawable/list_placeholder" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include layout="@layout/analysis_holding_list_item_header" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#e5e5e5"
+            android:gravity="start|center_vertical" />
+
+        <ExpandableListView
+            android:id="@+id/analysis_holding_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:listSelector="@color/transparent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:scrollbars="vertical"
+            android:scrollingCache="false" 
+            android:groupIndicator="@null">
+        </ExpandableListView>
+    </LinearLayout>
+
+</FrameLayout>

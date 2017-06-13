@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/border_bottom"
+    android:padding="8dp" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/rank_item_child_pic"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:border_color="#FFFFFFFF"
+        app:border_width="1dp" />
+
+    <TextView
+        android:id="@+id/rank_item_child_manager"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:text="@string/item_placerholder" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/rank_item_child_fund"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:text="@string/item_placerholder"
+        style="@style/TabletItemVisible" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/rank_item_child_port"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right|center_vertical"
+        android:text="@string/item_placerholder"
+        android:textStyle="bold" >
+    </TextView>
+
+</LinearLayout>

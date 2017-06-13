@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hf_intro_target"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/explore_hero_item_height"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?photoItemForeground" >
+
+    <!-- Session image -->
+
+    <ImageView
+        android:id="@+id/hf_intro_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:tint="@color/session_photo_scrim" />
+
+
+    <!-- Info box -->
+
+    <LinearLayout
+        android:id="@+id/info_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp" >
+
+        <!-- Session title -->
+
+        <TextView
+            android:id="@+id/hf_intro_title"
+            style="@style/ExploreItem.Title.Hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp" />
+
+        <!-- Subtitle -->
+
+        <TextView
+            android:id="@+id/hf_intro_subtitle"
+            style="@style/ExploreItem.Subtitle.Hero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>
