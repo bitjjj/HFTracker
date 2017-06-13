@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navdrawer"
+    android:layout_width="@dimen/navdrawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:background="@color/navdrawer_background" >
+
+    <LinearLayout
+        android:id="@+id/navdrawer_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout 
+            android:id="@+id/fund_holding_date_section"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="start|center_vertical"
+            android:text="@string/fund_detail_filter_filling"
+            style="@style/FilterMenu.TitleText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="7dp"
+            android:background="#e5e5e5"
+            android:gravity="start|center_vertical" />
+
+        <Spinner
+            android:id="@+id/fund_date_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left" />
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/fund_security_type_section"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical">
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="start|center_vertical"
+	            android:layout_marginTop="@dimen/activity_horizontal_margin"
+	            android:gravity="start|center_vertical"
+	            android:text="@string/fund_detail_filter_security"
+	            style="@style/FilterMenu.TitleText" />
+	
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:layout_marginBottom="8dp"
+	            android:layout_marginTop="7dp"
+	            android:background="#e5e5e5"
+	            android:gravity="start|center_vertical" />
+	
+	        <CheckBox
+	            android:id="@+id/fund_security_type_all"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/security_type_all"
+	            android:tag="all" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	
+	            <CheckBox
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/security_type_stock"
+	                android:tag="stock" />
+	
+	            <CheckBox
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="32dp"
+	                android:text="@string/security_type_bond"
+	                android:tag="bond" />
+	        </LinearLayout>
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	
+	            <CheckBox
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/security_type_call"
+	                android:tag="call" />
+	
+	            <CheckBox
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/security_type_put"
+	                android:tag="put" />
+	        </LinearLayout>
+		</LinearLayout>
+		
+        <LinearLayout 
+            android:id="@+id/fund_sort_section"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="vertical">
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="start|center_vertical"
+	            android:gravity="start|center_vertical"
+	            android:layout_marginTop="@dimen/activity_horizontal_margin"
+	            android:text="@string/fund_detail_filter_sort"
+	            style="@style/FilterMenu.TitleText" />
+	
+	        <View
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:layout_marginBottom="8dp"
+	            android:layout_marginTop="7dp"
+	            android:background="#e5e5e5"
+	            android:gravity="start|center_vertical" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+	
+	            <Spinner
+	                android:id="@+id/fund_sort_field_list"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="left" />
+	
+	            <Spinner
+	                android:id="@+id/fund_sort_direction_list"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_gravity="right" />
+	        </LinearLayout>
+        </LinearLayout>
+        <Button 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="@string/sure_label"/>
+    </LinearLayout>
+
+</ScrollView>

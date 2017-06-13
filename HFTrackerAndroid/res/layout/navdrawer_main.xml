@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navdrawer"
+    android:layout_width="@dimen/navdrawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/navdrawer_background" >
+
+    <LinearLayout
+        android:id="@+id/navdrawer_items_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/navdrawer_item_hf_list"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/hf_list_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_action_view_as_grid"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/hf_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_home"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navdrawer_item_hf_stock_rank"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/hf_stock_rank_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_action_sort_by_size"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/hf_stock_rank_icon_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_stock_rank"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navdrawer_item_hf_analysis"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/hf_analysis_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_action_chat"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/hf_analysis_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_analysis"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="7dp"
+            android:background="#e5e5e5"
+            android:gravity="start|center_vertical" />
+
+        <LinearLayout
+            android:id="@+id/navdrawer_item_spx_pe"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/spx_pe_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_fa_bell_o"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/spx_pe_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_spx_pe"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navdrawer_item_spx_shiller_pe"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/spx_shiller_pe_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_fa_bullhorn"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/spx_shiller_pe_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_spx_shiller_pe"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/navdrawer_item_spx_eps"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/spx_eps_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_fa_usd"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/spx_eps_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_spx_eps"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/navdrawer_item_spx_dps"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?android:selectableItemBackground"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/keyline_1"
+            android:paddingRight="@dimen/keyline_1" >
+
+            <ImageView
+                android:id="@+id/spx_dps_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="32dp"
+                android:src="@drawable/ic_fa_thumbs_o_up"
+                android:tag="icon" />
+
+            <TextView
+                android:id="@+id/spx_dps_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:gravity="start|center_vertical"
+                android:text="@string/menu_hf_spx_dps"
+                android:textSize="14sp"
+                android:textStyle="@integer/font_textStyle_drawer_item"
+                android:tag="title" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

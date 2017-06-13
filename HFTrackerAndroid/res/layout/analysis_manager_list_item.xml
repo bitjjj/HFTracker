@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/manager_pic"
+        android:layout_width="@dimen/analysis_bottom_bar_manager_size"
+        android:layout_height="@dimen/analysis_bottom_bar_manager_size"
+        android:layout_gravity="center"
+        app:border_color="#FFFFFFFF"
+        app:border_width="1dp" />
+
+</LinearLayout>

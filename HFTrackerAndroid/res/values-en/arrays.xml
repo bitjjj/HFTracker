@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="security_types">
+        <item name="security_type_all">@string/security_type_all</item>
+        <item name="security_type_stock">@string/security_type_stock</item>
+        <item name="security_type_call">@string/security_type_call</item>
+        <item name="security_type_put">@string/security_type_put</item>
+        <item name="security_type_bond">@string/security_type_bond</item>
+    </string-array>
+    <string-array name="sort_fields">
+        <item name="percentage">Port</item>
+        <item name="activity">Activity</item>
+        <item name="value">Value</item>
+        <item name="share">Shares</item>
+        <item name="ticker">Ticker</item>
+        <item name="name">Security</item>
+    </string-array>
+    <string-array name="sort_directions">
+        <item name="desc">Descending</item>
+        <item name="asc">Ascending</item>
+    </string-array>
+    <string-array name="proverbs">
+        <item name="1">Those with the enterprise lack the money and those with the money lack the enterprise to buy stocks when they are cheap.   |-Benjamin Graham</item>
+        <item name="2">After all, the chief business of the American people is business. They are profoundly concerned with producing, buying, selling, investing and prospering in the world.   |-Calvin Coolidge</item>
+        <item name="3">If investing is entertaining, if you\'re having fun, you\'re probably not making any money. Good investing is boring.   |-George Soros</item>
+        <item name="4">Rule No.1: Never lose money. Rule No.2: Never forget rule No.1.   |-Warren Buffett</item>
+        <item name="5">Markets can remain irrational longer than you can remain solvent.   |-John Maynard Keynes</item>
+        <item name="6">The four most dangerous words in investing are "This time it's different."   |-John Templeton</item>
+        <item name="7">If you have trouble imagining a 20% loss in the stock market, you shouldn\'t be in stocks.   |-John Bogle</item>
+        <item name="8">Put not your trust in money, but put your money in trust.   |-Oliver Wendell Holmes</item>
+        <item name="9">When an investor focuses on short-term investments, he or she is observing the variability of the portfolio, not the returns - in short, being fooled by randomness.   |-Nassim Nicholas Taleb</item>
+        <item name="10">Cash is a fact, profit is an opinion.   |-Alfred Rappaport</item>
+    </string-array>
+
+</resources>

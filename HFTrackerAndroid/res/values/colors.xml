@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="setting_indicator">#ffcccccc</color>
+    <color name="bg">#EFEFEB</color>
+    <color name="white">#FFEFEFEB</color>
+    <color name="filter_menu">#888</color>
+    <color name="pie_chart_holo">#9fa8da</color>
+    <color name="background_holo_light">#AA00b0ff</color>
+
+</resources>

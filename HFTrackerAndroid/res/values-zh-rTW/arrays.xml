@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="security_types">
+        <item name="security_type_all">@string/security_type_all</item>
+        <item name="security_type_stock">@string/security_type_stock</item>
+        <item name="security_type_call">@string/security_type_call</item>
+        <item name="security_type_put">@string/security_type_put</item>
+        <item name="security_type_bond">@string/security_type_bond</item>
+    </string-array>
+    <string-array name="sort_fields">
+        <item name="percentage">佔組合比例</item>
+        <item name="activity">持股變動比例</item>
+        <item name="value">持股市值</item>
+        <item name="share">持股總數</item>
+        <item name="ticker">股票代碼</item>
+        <item name="name">股票名稱</item>
+    </string-array>
+    <string-array name="sort_directions">
+        <item name="desc">倒序</item>
+        <item name="asc">正序</item>
+    </string-array>
+    <string-array name="proverbs">
+        <item name="1">財富是指你生活品質的程度，而不是你賺錢的多與少，要體會富有的滋味，並不需要標明自己有上億的財產，而是去過、去想過適於你的生活。 |——（美）洛克菲勒</item>
+        <item name="2">不進行研究的投資，就像打撲克從不看牌一樣，必然失敗！ |——（美）彼得·林奇</item>
+        <item name="3">不要懵懵懂懂的隨意買股票，要在投資前紮實的做一些功課，才能成功！ |——（美）威廉·歐奈爾</item>
+        <item name="4">承擔風險無可指責，但同時記住千萬不能孤注一擲！ |——（美）喬治·索羅斯</item>
+        <item name="5">始終遵守你自己的投資計劃的規則，這將加強良好的自我控制！ |——（英國）伯妮斯·科恩</item>
+        <item name="6">一個人一生能積累多少錢，不是取決於他能夠賺多少錢，而是取決於他如何投資理財，人找錢不如錢找錢，要知道讓錢為你工作，而不是你為錢工作。 |——（美）沃倫·巴菲特</item>
+        <item name="7">投資不僅僅是一種行為，更是一種帶有哲學意味的東西！ |——（美國）約翰·坎貝爾</item>
+        <item name="8">如果一點錢也沒有，生活不會快樂；如果有很多錢，也不一定會很快樂。錢是一個必要條件，而不是一個充分條件。 |——（中）曾子墨</item>
+        <item name="9">世界上並非每一件事情，都是金錢可以解決的，但是確實有很多事情需要金錢才能解決。 |——李嘉誠</item>
+        <item name="10">與其到頭來收拾殘局，甚至做成蝕本生意，倒不如當時理智克制一些。 |——李嘉誠</item>
+    </string-array>
+
+</resources>

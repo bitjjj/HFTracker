@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sql-map>
+	
+	<section desc="fund holdings">
+		<sql id="queryHoldingsByDefault">SELECT * FROM fund_holdings WHERE fund_name='%s' AND dateStr=(SELECT dateStr FROM fund_date_list WHERE fund_name='%s' ORDER BY dateStr DESC LIMIT 0,1) ORDER BY dateStr DESC,port DESC LIMIT %d,20</sql>
+		<sql id="queryHoldingsByName">SELECT * FROM fund_holdings WHERE fund_name='%s' AND dateStr='%s' AND LOCATE(securityType,'%s') != 0 ORDER BY %s %s LIMIT %d,20</sql>
+		<sql id="groupHoldings"><![CDATA[
+			SELECT fund_name,`security`,securityType,ticker,dateStr,SUM(shares) AS shares,SUM(`value`) AS `value`,SUM(`activity`) AS `activity`,SUM(`port`) AS `port` FROM fund_holdings 
+			WHERE %s AND dateStr='%s' AND LOCATE(securityType,'%s') != 0 AND shares != 0
+			GROUP BY fund_name,`security`,securityType,ticker,dateStr 
+			ORDER BY `port` DESC
+			]]>
+		</sql>
+		<!--SELECT * FROM fund_holdings WHERE %s AND fund_name='%s' AND LOCATE(securityType,'%s') != 0 ORDER BY dateStr DESC-->
+		<sql id="queryHoldingsByTickerAndName"><![CDATA[
+			SELECT fund_name,`security`,securityType,ticker,dateStr,SUM(shares) AS shares,SUM(`value`) AS `value`,SUM(`activity`) AS `activity`,SUM(`port`) AS `port` FROM fund_holdings 
+			WHERE %s AND fund_name='%s' AND LOCATE(securityType,'%s') != 0 
+			GROUP BY dateStr
+			ORDER BY dateStr DESC
+			]]>
+		</sql>
+		<sql id="queryHoldingsByTickerAndNames"><![CDATA[
+			SELECT fund_name,`security`,securityType,ticker,dateStr,SUM(shares) AS shares,SUM(`value`) AS `value`,SUM(`activity`) AS `activity`,SUM(`port`) AS `port` FROM fund_holdings 
+			WHERE %s AND (%s) AND LOCATE(securityType,'STOCK') != 0 
+			GROUP BY fund_name,dateStr
+			ORDER BY fund_name,dateStr DESC
+			]]>
+		</sql>
+		<sql id="queryHoldingsByTicker">SELECT * FROM fund_holdings WHERE ticker='%s' AND `action`!= -2 ORDER BY dateStr DESC,port DESC,fund_name LIMIT %d,20</sql>
+	</section>
+	
+	<section desc="fund news">
+		<sql id="queryNewsByName">SELECT * FROM fund_news WHERE fund_name='%s' ORDER BY timeMark DESC LIMIT %d,10</sql>
+	</section>
+	
+	<section desc="fund date list">
+		<sql id="queryDateListByName">SELECT * FROM fund_date_list WHERE fund_name='%s' ORDER BY dateStr DESC</sql>
+		<sql id="queryDateListByNames">SELECT * FROM fund_date_list WHERE %s ORDER BY fund_name,dateStr DESC</sql>
+		<sql id="queryWholeDateList">SELECT DISTINCT(dateStr) FROM fund_date_list ORDER BY dateStr DESC</sql>
+	</section>
+	
+	<section desc="fund industry">
+		<sql id="queryIndustryByDefault">SELECT * FROM fund_industry_percentage WHERE fund_name='%s' AND dateStr=(SELECT dateStr FROM fund_date_list WHERE fund_name='%s' ORDER BY dateStr DESC LIMIT 0,1) ORDER BY fund_name,dateStr DESC</sql>
+		<sql id="queryIndustryByName">SELECT * FROM fund_industry_percentage WHERE fund_name='%s' AND dateStr='%s' ORDER BY fund_name,dateStr DESC</sql>
+		<sql id="queryIndustryByNames">SELECT * FROM fund_industry_percentage WHERE (%s) AND dateStr='%s' ORDER BY fund_name,dateStr DESC</sql>
+	</section>
+
+
+	<section desc="fund analysis">
+		<sql id="queryMutualHoldings"><![CDATA[
+			SELECT `security`,securityType,ticker,SUM(shares) AS shares,SUM(`port`) AS `port`,GROUP_CONCAT(fund_name,'!',`port` SEPARATOR ' | ') AS fund_names,GROUP_CONCAT(DISTINCT fund_name SEPARATOR ' | ') AS fund_names_count
+			FROM fund_holdings 
+			WHERE dateStr='%s' AND `action`!= -2 AND (%s)
+			GROUP BY `security`,securityType,ticker
+			HAVING LENGTH(fund_names_count) - LENGTH(REPLACE(fund_names_count, '|', '')) >= %d
+			ORDER BY ticker,`security`
+			LIMIT %d,20
+			]]>
+		</sql>
+		<sql id="queryMutualHoldingsRank"><![CDATA[
+			SELECT `security`,securityType,ticker,COUNT(DISTINCT fund_name) AS `count`,SUM(shares) AS shares,SUM(`port`) AS `port`,GROUP_CONCAT(fund_name,'!',`port` SEPARATOR ' | ') AS fund_names,GROUP_CONCAT(DISTINCT fund_name SEPARATOR ' | ') AS fund_names_count
+			FROM fund_holdings 
+			WHERE dateStr='%s' AND `action`!= -2 AND LOCATE(securityType,'%s') != 0
+			GROUP BY `security`,securityType,ticker
+			HAVING LENGTH(fund_names_count) - LENGTH(REPLACE(fund_names_count, '|', '')) >= 1 AND `count` >= 2
+			ORDER BY `count` DESC
+			LIMIT %d,20
+			]]>
+		</sql>
+	</section>
+	
+	<section desc="spx">
+		<sql id="querySPX">SELECT dateStr,timeMark,`value` FROM %s UNION SELECT dateStr,timeMark,`value` FROM spx_info_year WHERE spx_index_name='%s' ORDER BY timeMark DESC</sql>
+	</section>
+</sql-map>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BlueActionBarTheme" parent="BlueActionBarBaseTheme">
+        <item name="android:actionBarStyle">@style/BlueActionBar</item>
+    </style>
+
+    <style name="BlueActionBarNoShadowTheme" parent="BlueActionBarBaseTheme">
+        <item name="android:actionBarStyle">@style/BlueActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!--  <item name="android:dropDownListViewStyle">@style/MySpinnerStyle</item> -->
+    </style>
+
+    <style name="BlueActionBarBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="popupItemBackground">?android:selectableItemBackground</item>
+        <item name="photoItemForeground">?android:selectableItemBackground</item>
+        <item name="hlv_listViewStyle">@style/HListView</item>
+        <item name="hlv_absHListViewStyle">@style/AbsHListView</item>
+        <item name="hlv_listPreferredItemWidth">64dip</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="BlueActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/theme_primary</item>
+        <item name="android:backgroundSplit">@color/theme_primary</item>
+    </style>
+
+    <style name="MySpinnerStyle" parent="android:style/Widget.ListView.DropDown">
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+    
+    <style name="AbsHListView">
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadingEdge">horizontal</item>
+    </style>
+
+    <style name="HListView" parent="AbsHListView">
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+        <item name="android:cacheColorHint">?android:attr/colorBackgroundCacheHint</item>
+        <item name="android:divider">@android:drawable/divider_horizontal_bright</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:smoothScrollbar">false</item>
+        <item name="android:choiceMode">multipleChoiceModal</item>
+        <item name="hlv_stackFromRight">false</item>
+        <item name="hlv_measureWithChild">0</item>
+        <item name="hlv_dividerWidth">3dip</item>
+        <item name="hlv_headerDividersEnabled">true</item>
+        <item name="hlv_footerDividersEnabled">true</item>
+        <item name="hlv_transcriptMode">disabled</item>
+    </style>
+
+    <style name="FilterMenu.TitleText" parent="">
+        <item name="android:textColor">@color/filter_menu</item>
+        <item name="android:textSize">@dimen/filter_menu_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Chart.TitleText" parent="android:TextAppearance.Holo">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:shadowColor">#8000</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+    </style>
+
+    <style name="Chart.SubTitleText" parent="Chart.TitleText">
+        <item name="android:fontFamily" tools:ignore="NewApi">sans-serif-condensed</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="IndustryExplainText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    
+   	<style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animations.SplashScreen</item>
+    </style>
+    
+         <style name="Animations" parent="@android:Animation" />
+
+    <style name="Animations.SplashScreen">
+        <item name="android:windowEnterAnimation">@anim/appear</item>
+        <item name="android:windowExitAnimation">@anim/disappear</item>
+    </style>
+
+</resources>

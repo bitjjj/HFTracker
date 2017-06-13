@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- tablet will show value field -->
+    <style name="TabletItemVisible">
+        <item name="android:visibility">visible</item>
+    </style>
+    
+     <style name="ItemSharesGravity">
+        <item name="android:gravity">left</item>
+    </style>
+
+     <style name="ShadowBG">
+        <item name="android:background">@drawable/container_dropshadow</item>
+    </style>
+    
+     
+
+</resources>

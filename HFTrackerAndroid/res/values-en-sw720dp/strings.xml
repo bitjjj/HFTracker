@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Billionaire Hedge Funds</string>
+    <string name="industry_full_name">BM-Basic Materials , C-Conglomerates , CG-Consumer Goods , F-Financial , H-Healthcare\nIG-Industrial Goods , IT-Technology , S-Services , O-Others , U-Utilities</string>
+</resources>

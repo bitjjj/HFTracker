@@ -1,0 +1,146 @@
+{
+	"1":{
+			"fundName_zh" : "伯克希尔哈撒韦公司",
+			"managerName_zh" : "沃伦·巴菲特",
+			"fundName_tw" : "伯克希爾哈撒韋公司",
+			"managerName_tw" : "沃倫·巴菲特",
+			"fundId" : "1"
+		}, 
+	"15":{
+			"fundName_zh" : "绿光资本",
+			"managerName_zh" : "大卫·艾因霍恩",
+			"fundName_tw" : "綠光資本",
+			"managerName_tw" : "大衛·艾恩霍恩",
+			"fundId" : "15"
+		}, 
+	"2":{
+			"fundName_zh" : "索罗斯基金管理公司",
+			"managerName_zh" : "乔治·索罗斯",
+			"fundName_tw" : "索羅斯基金管理公司",
+			"managerName_tw" : "喬治·索羅斯",
+			"fundId" : "2"
+		}, 
+	"5":{
+			"fundName_zh" : "文艺复兴科技公司",
+			"managerName_zh" : "詹姆斯·西蒙斯",
+			"fundName_tw" : "文藝復興科技公司",
+			"managerName_tw" : "詹姆斯·西蒙斯",
+			"fundId" : "5"
+		}, 
+	"49":{
+			"fundName_zh" : "欧米茄顾问公司",
+			"managerName_zh" : "利昂·库珀曼",
+			"fundName_tw" : "歐米加顧問公司",
+			"managerName_tw" : "利昂·庫珀曼",
+			"fundId" : "49"
+		}, 
+	"4":{
+			"fundName_zh" : "伊坎资本管理公司",
+			"managerName_zh" : "卡尔·伊坎",
+			"fundName_tw" : "伊坎資本管理公司",
+			"managerName_tw" : "卡爾·伊坎",
+			"fundId" : "4"
+		}, 
+	"8":{
+			"fundName" : "SAC Capital Advisors",
+			"fundName_zh" : "SAC资本",
+			"managerName_zh" : "史蒂文·科恩",
+			"fundName_tw" : "SAC資本",
+			"managerName_tw" : "史蒂文·科恩",
+			"fundId" : "8"
+		}, 
+	"18":{
+			"fundName_zh" : "鲍尔森基金公司",
+			"managerName_zh" : "约翰·鲍尔森",
+			"fundName_tw" : "鮑爾森基金公司",
+			"managerName_tw" : "約翰·鮑爾森",
+			"fundId" : "18"
+		}, 
+	"24":{
+			"fundName_zh" : "Appaloosa Management Lp",
+			"managerName_zh" : "大卫·泰珀",
+			"fundName_tw" : "Appaloosa Management Lp",
+			"managerName_tw" : "大衛·泰珀",
+			"fundId" : "24"
+		}, 
+	"23":{
+			"fundName_zh" : "都铎投资公司",
+			"managerName_zh" : "保罗·都铎·琼斯",
+			"fundName_tw" : "都鐸投資公司",
+			"managerName_tw" : "保羅·都鐸·瓊斯",
+			"fundId" : "23"
+		}, 
+	"295":{
+			"fundName_zh" : "杜肯资本",
+			"managerName_zh" : "斯坦利·德鲁肯米勒",
+			"fundName_tw" : "杜肯資本",
+			"managerName_tw" : "斯坦利·德魯肯米勒",
+			"fundId" : "295"
+		}, 
+	"50":{
+			"fundName_zh" : "老虎基金",
+			"managerName_zh" : "朱利安·罗伯逊",
+			"fundName_tw" : "老虎基金",
+			"managerName_tw" : "朱利安·羅伯遜",
+			"fundId" : "50"
+		}, 
+	"72":{
+			"fundName_zh" : "布里奇沃特投资公司",
+			"managerName_zh" : "雷伊·达里奥",
+			"fundName_tw" : "布里奇沃特投資公司",
+			"managerName_tw" : "雷伊·達里奧",
+			"fundId" : "72"
+		}, 
+	"11":{
+			"fundName_zh" : "费舍尔资产管理公司",
+			"managerName_zh" : "肯·费舍尔",
+			"fundName_tw" : "費舍爾資產管理公司",
+			"managerName_tw" : "肯·費舍爾",
+			"fundId" : "11"
+		}, 
+	"13":{
+			"fundName_zh" : "潘兴广场",
+			"managerName_zh" : "比尔 阿克曼",
+			"fundName_tw" : "潘興廣場",
+			"managerName_tw" : "比爾•阿克曼",
+			"fundId" : "13"
+		}, 
+	"14":{
+			"fundName" : "ESL Investments",
+			"fundName_zh" : "ESL投资公司",
+			"managerName_zh" : "爱德华·兰珀特",
+			"fundName_tw" : "ESL投資公司",
+			"managerName_tw" : "愛德華·蘭珀特",
+			"fundId" : "14"
+		}, 
+	"16":{
+			"fundName_zh" : "第三点",
+			"managerName_zh" : "丹尼尔·勒布",
+			"fundName_tw" : "第三點",
+			"managerName_tw" : "丹尼爾·勒布",
+			"fundId" : "16"
+		}, 
+	"44":{
+			"fundName_zh" : "城堡投资集团",
+			"managerName_zh" : "肯·格里芬",
+			"fundName_tw" : "城堡投資集團",
+			"managerName_tw" : "肯·格裡芬",
+			"fundId" : "44"
+		}, 
+	"67":{
+			"fundName_zh" : "千禧管理",
+			"managerName_zh" : "伊斯里尔·英格兰德",
+			"fundName_tw" : "千禧管理",
+			"managerName_tw" : "伊斯雷爾·英格蘭德",
+			"fundId" : "67"
+		}, 
+	"129":{
+			"fundName" : "MFP Investors",
+			"fundName_zh" : "MFP投资者",
+			"managerName_zh" : "麦克尔·普里斯",
+			"fundName_tw" : "MFP投資者",
+			"managerName_tw" : "麥克爾·普裡斯",
+			"fundId" : "129"
+		}
+	
+}

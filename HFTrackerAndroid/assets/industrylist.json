@@ -1,0 +1,94 @@
+{
+	"list": 
+	[
+		{
+			"name": "Financial",
+			"name_abbr": "F",
+			"name_zh": "金融",
+			"name_tw": "金融",
+			"name_abbr_zh": "金融",
+			"name_abbr_tw": "金融"
+		},
+
+		{
+			"name": "ConsumerGoods",
+			"name_abbr": "CG",
+			"name_zh": "消费品",
+			"name_tw": "消費品",
+			"name_abbr_zh": "消费品",
+			"name_abbr_tw": "消費品"
+		},
+
+		{
+			"name": "Technology",
+			"name_abbr": "IT",
+			"name_zh": "科技",
+			"name_tw": "科技",
+			"name_abbr_zh": "科技",
+			"name_abbr_tw": "科技"
+		},
+
+		{
+			"name": "BasicMaterials",
+			"name_abbr": "BM",
+			"name_zh": "基础材料",
+			"name_tw": "基礎材料",
+			"name_abbr_zh": "材料",
+			"name_abbr_tw": "材料"
+		},
+
+		{
+			"name": "Services",
+			"name_abbr": "S",
+			"name_zh": "服务业",
+			"name_tw": "服務業",
+			"name_abbr_zh": "服务业",
+			"name_abbr_tw": "服務業"
+		},
+
+		{
+			"name": "Healthcare",
+			"name_abbr": "H",
+			"name_zh": "医疗",
+			"name_tw": "醫療",
+			"name_abbr_zh": "医疗",
+			"name_abbr_tw": "醫療"
+		},
+
+		{
+			"name": "IndustrialGoods",
+			"name_abbr": "IG",
+			"name_zh": "工业制品",
+			"name_tw": "工業製品",
+			"name_abbr_zh": "工业",
+			"name_abbr_tw": "工業"
+		},
+
+		{
+			"name": "Conglomerates",
+			"name_abbr": "C",
+			"name_zh": "综合企业",
+			"name_tw": "綜合企業",
+			"name_abbr_zh": "综合",
+			"name_abbr_tw": "綜合"
+		},
+
+		{
+			"name": "Other",
+			"name_abbr": "O",
+			"name_zh": "其它",
+			"name_tw": "其它",
+			"name_abbr_zh": "其它",
+			"name_abbr_tw": "其它"
+		},
+
+		{
+			"name": "Utilities",
+			"name_abbr": "U",
+			"name_zh": "公共事业",
+			"name_tw": "公共事業",
+			"name_abbr_zh": "公共",
+			"name_abbr_tw": "公共"
+		}
+	]
+}
